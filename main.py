@@ -4,7 +4,9 @@
 
 import discord
 from discord.ext import commands
+import random
 import os
+import json
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -325,5 +327,6 @@ import os
 
 TOKEN = os.getenv("TOKEN")
 bot.run(TOKEN)
+
 
 
