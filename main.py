@@ -2,6 +2,10 @@
 # Configuración del bot
 # -----------------------------
 
+import discord
+from discord.ext import commands
+import os
+
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents, case_insensitive=True)
@@ -320,5 +324,5 @@ async def cmd_reino(ctx):
 import os
 
 TOKEN = os.getenv("TOKEN")
-
 bot.run(TOKEN)
+
