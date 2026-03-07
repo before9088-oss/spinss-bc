@@ -120,7 +120,7 @@ FamiliaClaseMedia = {
 }
 
 ClaseNoble = {
-    "Roselei": "https://i.pinimg.com/736x/0d/74/be/0d74be5e8e1b9f45b45d5be34ed0df73.jpg"",
+    "Roselei": "https://i.pinimg.com/736x/0d/74/be/0d74be5e8e1b9f45b45d5be34ed0df73.jpg",
     "Silva": "https://i.pinimg.com/1200x/da/91/21/da9121f77189b84f26fc65d437a96f4f.jpg",
     "Lunettes": "https://i.pinimg.com/736x/2b/a5/21/2ba5213d21cac1c1c532c89c99a7ea4d.jpg",
     "Vaude": "https://i.pinimg.com/1200x/71/a7/43/71a74308aa7d15ed1f7f26abbf0517f1.jpg",
@@ -325,4 +325,5 @@ import os
 
 TOKEN = os.getenv("TOKEN")
 bot.run(TOKEN)
+
 
