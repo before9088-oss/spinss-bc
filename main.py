@@ -65,7 +65,7 @@ async def tirar_spin(ctx, categoria, items_dict, color=discord.Color.blue()):
                 "Familia": [],
                 "Talento": [],
                 "Grimorio": [],
-                "Reino": i
+                "Reino": []
             }
         }
 
@@ -345,6 +345,7 @@ import os
 
 TOKEN = os.getenv("TOKEN")
 bot.run(TOKEN)
+
 
 
 
