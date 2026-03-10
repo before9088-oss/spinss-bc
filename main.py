@@ -169,7 +169,7 @@ TALENTOS = {
     "Promedio": {"prob": 60, "img": "https://i.pinimg.com/736x/95/67/9e/95679e55037692264ab6b1097034bb02.jpg"},
     "Destacable": {"prob": 30, "img": "https://i.pinimg.com/736x/5f/15/30/5f153092af2167f63595a6a6e0d01a8e.jpg"},
     "Prodigio": {"prob": 9, "img": "https://i.pinimg.com/736x/da/1e/90/da1e90524557ee189825504242c5753a.jpg"},
-    "Genio": {"prob": 1, "img": "https://i.pinimg.com/736x/80/c6/d9/80c6d960069cdd9f3adef4ec361332a6.jpg"}
+    "Genio": {"prob": 1, "img": "https://i.pinimg.com/736x/80/c6/d9/80c6d960069cdd9f3adef4ec361332a6.jpg"
 }
 
 # -----------------------------
@@ -345,6 +345,7 @@ import os
 
 TOKEN = os.getenv("TOKEN")
 bot.run(TOKEN)
+
 
 
 
